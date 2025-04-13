@@ -14,7 +14,7 @@ document.getElementById("resume-download-btn").addEventListener("click", functio
     const resumeUrl = "https://1drv.ms/w/c/d1f5ab2a6b86f987/ESVi_x_OsjBJs2OpcnFyFoEBZNk6M2x7mikj6RxMNw-59g?e=gNGLHZ";
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "Kollepara_Chakravarthi_Resume.pdf"; // Rename as needed
+    link.download = "Kollepara_Chakravarthi_Resume.pdf"; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
